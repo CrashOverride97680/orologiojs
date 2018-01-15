@@ -1,2 +1,2 @@
 # orologiojs
-Orologio con tasto che serve per mostrare l'orario
+Orologio con bottone che serve per mostrare l'orario
