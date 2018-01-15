@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<script>
+function mostra(){
+	var mostra = document.getElementById("a");
+	mostra.style.display = "block";
+	var nascondi = document.getElementById("bottone");
+	nascondi.style.display = "none";
+}
+</script>
+</HEAD>
+<BODY style="background-color: #99b3e6;">
+<label id="a"style="border-radius:10px 10px 10px 10px;"></label>
+<button type="button" onclick="mostra();" id="bottone" style="border-radius:10px 10px 10px 10px;">Mostra</button>
+<style>
+#a{
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    margin-top: -100px;
+    margin-left: -100px;
+	display:none;
+	border: solid;
+	font-family: "Verdana";
+}
+	</style>
+<script type="text/javascript">
+<!--
+var a=document.getElementById("a");
+function data(){
+  var data = new Date();
+  var Hh, Mm, Ss, mm;
+  Hh = data.getHours() + ":";
+  Mm = data.getMinutes() + ":";
+  Ss = data.getSeconds();
+  a.innerHTML = ("<h1><center style='font-size:200;'>"+ Hh + Mm + Ss +"</center></h1>");
+}
+function Interval(){
+setInterval("data()",1000);
+}
+Interval();
+//-->
+</script>
+</BODY>
+</HTML>
